@@ -20,8 +20,8 @@ $len=count($lista);
 $indice=random_int(0,$len-1);
 $foto=$lista[$indice]->link;
 echo("<img src="."\"" . $foto . "\"");
-echo("<h1>" . $capitulo ."</h1>");
-echo("<h1>" . $indice ."</h1>");
+echo("<br><h1>" . $capitulo ."</h1>");
+echo("<br><h1>" . $indice ."</h1>");
 
 
 ?>
